@@ -13,4 +13,4 @@ The first part of the project is data acquisition and wrangling. The three datas
 3. Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current: https://data.cityofchicago.org/dataset/Chicago-Traffic-Tracker-Historical-Congestion-Esti/kf7e-cur8
 
 
-After downloading these 3 datasets, use data-wrangling.ipynb to clean the datasets, and then to process the data into one combined dataset, indexed on datetime and the regions as defined by the congestion dataset.
+After downloading these 3 datasets, put them in a folder named data under the named rideshares_raw.csv, congestion_raw.csv, and station_entries_raw.csv, then use data-wrangling.ipynb to clean the datasets, and then to process the data into one combined dataset, indexed on datetime and the regions as defined by the congestion dataset. The processed data will be saved in the same data folder.
